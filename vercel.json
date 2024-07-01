@@ -1,6 +1,6 @@
 {
-  "installCommand": "npx pnpm install",
-  "buildCommand": "npx pnpm node scripts/build.js && mkdir -p public && touch public/index.html",
+  "installCommand": "npm install",
+  "buildCommand": "node scripts/build.js && mkdir -p public && touch public/index.html",
   "outputDirectory": "public",
   "rewrites": [
     {
