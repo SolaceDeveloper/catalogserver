@@ -1,0 +1,12 @@
+{
+  "ios": {
+    "0.0.1": {
+      "auth": "https://apphosting.onrender.com/auth/[name][ext]"
+    }
+  },
+  "android": {
+    "0.0.1": {
+      "auth": "https://apphosting.onrender.com/auth/[name][ext]"
+    }
+  }
+}
