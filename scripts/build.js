@@ -62,6 +62,7 @@ for (const appName in matrix) {
 
   // save the JSON object to a file synchronously
   const outputFilename = `${appName}.prod.json`;
+  console.log(appJSON)
   fs.writeFileSync(
     path.join(__dirname, '..', 'data', outputFilename),
     JSON.stringify(appJSON, null, 2),
