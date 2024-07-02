@@ -34,8 +34,8 @@ function createAppJSON(matrix) {
       const appVersion = matrix.versions[version][appName];
       const appInfo = matrix.sources.find(source => source.name === appName);
 
-      const iosBundleURL = `${appInfo.url}/releases/download/${appName}-ios@${appVersion}/[name][ext]`;
-      const androidBundleURL = `${appInfo.url}/releases/download/${appName}-android@${appVersion}/[name][ext]`;
+      const iosBundleURL = `https://apphosting.onrender.com/${appName}/[name][ext]`;
+      const androidBundleURL = `https://apphosting.onrender.com/${appName}/[name][ext]`;
 
       result.ios[version][appName] = iosBundleURL;
       result.android[version][appName] = androidBundleURL;
